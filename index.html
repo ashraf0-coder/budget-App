@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="sub">
+    <div class="budget-section">
+      <h2>Budget</h2>
+      <input type="number" id="total-budget" placeholder="Enter Total Amount">
+      <button id="set-budget-btn">Set Budget</button>
+    </div>
+
+    <div class="expenses-section">
+      <h2>Expenses</h2>
+      <input type="text" id="expense-title" placeholder="Enter Title of Product">
+      <input type="number" id="expense-cost" placeholder="Enter Cost of Product">
+      <button id="add-expense-btn">Check Amount</button>
+    </div>
+    </div>
+    <div class="summary">
+      <div class="summary-item">
+        <h3>Total Budget</h3>
+        <p id="total-budget-display">0</p>
+      </div>
+      <div class="summary-item">
+        <h3>Expenses</h3>
+        <p id="total-expenses-display">0</p>
+      </div>
+      <div class="summary-item">
+        <h3>Balance</h3>
+        <p id="balance-display">0</p>
+      </div>
+    </div>
+    <div class="exp">
+    <h3>Expense List</h3>
+    <ul id="expense-list"></ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
