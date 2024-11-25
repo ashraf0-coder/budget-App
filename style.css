@@ -71,6 +71,7 @@ body {
   
   .summary {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 80px;
     background-color: #333fc9;
@@ -125,4 +126,9 @@ body {
     color: red;
     cursor: pointer;
   }
-  
+
+  @media screen and (max-width: 480px) {
+    .summary{
+      width: 300px;
+    }
+  }
