@@ -12,6 +12,7 @@ body {
   }
   
   .container {
+    flex-wrap: wrap;
     padding: 20px;
     border-radius: 8px;
     width: 700px;
@@ -19,6 +20,7 @@ body {
   .sub{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   h2, h3 {
